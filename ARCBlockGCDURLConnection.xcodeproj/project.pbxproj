@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0084F1CE200D85D7005DC7D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0084F1CD200D85D7005DC7D5 /* AppDelegate.m */; };
+		0084F1D1200D85D7005DC7D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0084F1D0200D85D7005DC7D5 /* ViewController.m */; };
+		0084F1D4200D85D7005DC7D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0084F1D2200D85D7005DC7D5 /* Main.storyboard */; };
+		0084F1D6200D85D7005DC7D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0084F1D5200D85D7005DC7D5 /* Assets.xcassets */; };
+		0084F1D9200D85D7005DC7D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0084F1D7200D85D7005DC7D5 /* LaunchScreen.storyboard */; };
+		0084F1DC200D85D7005DC7D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0084F1DB200D85D7005DC7D5 /* main.m */; };
+		0084F1E6200D85D8005DC7D5 /* ARCBlockGCDURLConnectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0084F1E5200D85D8005DC7D5 /* ARCBlockGCDURLConnectionTests.m */; };
+		0084F1F1200D85D8005DC7D5 /* ARCBlockGCDURLConnectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0084F1F0200D85D8005DC7D5 /* ARCBlockGCDURLConnectionUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0084F1E2200D85D8005DC7D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0084F1C1200D85D7005DC7D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0084F1C8200D85D7005DC7D5;
+			remoteInfo = ARCBlockGCDURLConnection;
+		};
+		0084F1ED200D85D8005DC7D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0084F1C1200D85D7005DC7D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0084F1C8200D85D7005DC7D5;
+			remoteInfo = ARCBlockGCDURLConnection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0084F1C9200D85D7005DC7D5 /* ARCBlockGCDURLConnection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARCBlockGCDURLConnection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0084F1CC200D85D7005DC7D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0084F1CD200D85D7005DC7D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0084F1CF200D85D7005DC7D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0084F1D0200D85D7005DC7D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0084F1D3200D85D7005DC7D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0084F1D5200D85D7005DC7D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0084F1D8200D85D7005DC7D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0084F1DA200D85D7005DC7D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0084F1DB200D85D7005DC7D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0084F1E1200D85D8005DC7D5 /* ARCBlockGCDURLConnectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARCBlockGCDURLConnectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0084F1E5200D85D8005DC7D5 /* ARCBlockGCDURLConnectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARCBlockGCDURLConnectionTests.m; sourceTree = "<group>"; };
+		0084F1E7200D85D8005DC7D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0084F1EC200D85D8005DC7D5 /* ARCBlockGCDURLConnectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARCBlockGCDURLConnectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0084F1F0200D85D8005DC7D5 /* ARCBlockGCDURLConnectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARCBlockGCDURLConnectionUITests.m; sourceTree = "<group>"; };
+		0084F1F2200D85D8005DC7D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0084F1C6200D85D7005DC7D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0084F1DE200D85D8005DC7D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0084F1E9200D85D8005DC7D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0084F1C0200D85D7005DC7D5 = {
+			isa = PBXGroup;
+			children = (
+				0084F1CB200D85D7005DC7D5 /* ARCBlockGCDURLConnection */,
+				0084F1E4200D85D8005DC7D5 /* ARCBlockGCDURLConnectionTests */,
+				0084F1EF200D85D8005DC7D5 /* ARCBlockGCDURLConnectionUITests */,
+				0084F1CA200D85D7005DC7D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0084F1CA200D85D7005DC7D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0084F1C9200D85D7005DC7D5 /* ARCBlockGCDURLConnection.app */,
+				0084F1E1200D85D8005DC7D5 /* ARCBlockGCDURLConnectionTests.xctest */,
+				0084F1EC200D85D8005DC7D5 /* ARCBlockGCDURLConnectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0084F1CB200D85D7005DC7D5 /* ARCBlockGCDURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				0084F1CC200D85D7005DC7D5 /* AppDelegate.h */,
+				0084F1CD200D85D7005DC7D5 /* AppDelegate.m */,
+				0084F1CF200D85D7005DC7D5 /* ViewController.h */,
+				0084F1D0200D85D7005DC7D5 /* ViewController.m */,
+				0084F1D2200D85D7005DC7D5 /* Main.storyboard */,
+				0084F1D5200D85D7005DC7D5 /* Assets.xcassets */,
+				0084F1D7200D85D7005DC7D5 /* LaunchScreen.storyboard */,
+				0084F1DA200D85D7005DC7D5 /* Info.plist */,
+				0084F1DB200D85D7005DC7D5 /* main.m */,
+			);
+			path = ARCBlockGCDURLConnection;
+			sourceTree = "<group>";
+		};
+		0084F1E4200D85D8005DC7D5 /* ARCBlockGCDURLConnectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				0084F1E5200D85D8005DC7D5 /* ARCBlockGCDURLConnectionTests.m */,
+				0084F1E7200D85D8005DC7D5 /* Info.plist */,
+			);
+			path = ARCBlockGCDURLConnectionTests;
+			sourceTree = "<group>";
+		};
+		0084F1EF200D85D8005DC7D5 /* ARCBlockGCDURLConnectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0084F1F0200D85D8005DC7D5 /* ARCBlockGCDURLConnectionUITests.m */,
+				0084F1F2200D85D8005DC7D5 /* Info.plist */,
+			);
+			path = ARCBlockGCDURLConnectionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0084F1C8200D85D7005DC7D5 /* ARCBlockGCDURLConnection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0084F1F5200D85D8005DC7D5 /* Build configuration list for PBXNativeTarget "ARCBlockGCDURLConnection" */;
+			buildPhases = (
+				0084F1C5200D85D7005DC7D5 /* Sources */,
+				0084F1C6200D85D7005DC7D5 /* Frameworks */,
+				0084F1C7200D85D7005DC7D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARCBlockGCDURLConnection;
+			productName = ARCBlockGCDURLConnection;
+			productReference = 0084F1C9200D85D7005DC7D5 /* ARCBlockGCDURLConnection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0084F1E0200D85D8005DC7D5 /* ARCBlockGCDURLConnectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0084F1F8200D85D8005DC7D5 /* Build configuration list for PBXNativeTarget "ARCBlockGCDURLConnectionTests" */;
+			buildPhases = (
+				0084F1DD200D85D8005DC7D5 /* Sources */,
+				0084F1DE200D85D8005DC7D5 /* Frameworks */,
+				0084F1DF200D85D8005DC7D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0084F1E3200D85D8005DC7D5 /* PBXTargetDependency */,
+			);
+			name = ARCBlockGCDURLConnectionTests;
+			productName = ARCBlockGCDURLConnectionTests;
+			productReference = 0084F1E1200D85D8005DC7D5 /* ARCBlockGCDURLConnectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0084F1EB200D85D8005DC7D5 /* ARCBlockGCDURLConnectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0084F1FB200D85D8005DC7D5 /* Build configuration list for PBXNativeTarget "ARCBlockGCDURLConnectionUITests" */;
+			buildPhases = (
+				0084F1E8200D85D8005DC7D5 /* Sources */,
+				0084F1E9200D85D8005DC7D5 /* Frameworks */,
+				0084F1EA200D85D8005DC7D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0084F1EE200D85D8005DC7D5 /* PBXTargetDependency */,
+			);
+			name = ARCBlockGCDURLConnectionUITests;
+			productName = ARCBlockGCDURLConnectionUITests;
+			productReference = 0084F1EC200D85D8005DC7D5 /* ARCBlockGCDURLConnectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0084F1C1200D85D7005DC7D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = a;
+				TargetAttributes = {
+					0084F1C8200D85D7005DC7D5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0084F1E0200D85D8005DC7D5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0084F1C8200D85D7005DC7D5;
+					};
+					0084F1EB200D85D8005DC7D5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0084F1C8200D85D7005DC7D5;
+					};
+				};
+			};
+			buildConfigurationList = 0084F1C4200D85D7005DC7D5 /* Build configuration list for PBXProject "ARCBlockGCDURLConnection" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0084F1C0200D85D7005DC7D5;
+			productRefGroup = 0084F1CA200D85D7005DC7D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0084F1C8200D85D7005DC7D5 /* ARCBlockGCDURLConnection */,
+				0084F1E0200D85D8005DC7D5 /* ARCBlockGCDURLConnectionTests */,
+				0084F1EB200D85D8005DC7D5 /* ARCBlockGCDURLConnectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0084F1C7200D85D7005DC7D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0084F1D9200D85D7005DC7D5 /* LaunchScreen.storyboard in Resources */,
+				0084F1D6200D85D7005DC7D5 /* Assets.xcassets in Resources */,
+				0084F1D4200D85D7005DC7D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0084F1DF200D85D8005DC7D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0084F1EA200D85D8005DC7D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0084F1C5200D85D7005DC7D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0084F1D1200D85D7005DC7D5 /* ViewController.m in Sources */,
+				0084F1DC200D85D7005DC7D5 /* main.m in Sources */,
+				0084F1CE200D85D7005DC7D5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0084F1DD200D85D8005DC7D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0084F1E6200D85D8005DC7D5 /* ARCBlockGCDURLConnectionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0084F1E8200D85D8005DC7D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0084F1F1200D85D8005DC7D5 /* ARCBlockGCDURLConnectionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0084F1E3200D85D8005DC7D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0084F1C8200D85D7005DC7D5 /* ARCBlockGCDURLConnection */;
+			targetProxy = 0084F1E2200D85D8005DC7D5 /* PBXContainerItemProxy */;
+		};
+		0084F1EE200D85D8005DC7D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0084F1C8200D85D7005DC7D5 /* ARCBlockGCDURLConnection */;
+			targetProxy = 0084F1ED200D85D8005DC7D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0084F1D2200D85D7005DC7D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0084F1D3200D85D7005DC7D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0084F1D7200D85D7005DC7D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0084F1D8200D85D7005DC7D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0084F1F3200D85D8005DC7D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0084F1F4200D85D8005DC7D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0084F1F6200D85D8005DC7D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WK6R7V524D;
+				INFOPLIST_FILE = ARCBlockGCDURLConnection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ARCBlockGCDURLConnection.ARCBlockGCDURLConnection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0084F1F7200D85D8005DC7D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WK6R7V524D;
+				INFOPLIST_FILE = ARCBlockGCDURLConnection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ARCBlockGCDURLConnection.ARCBlockGCDURLConnection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0084F1F9200D85D8005DC7D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WK6R7V524D;
+				INFOPLIST_FILE = ARCBlockGCDURLConnectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ARCBlockGCDURLConnection.ARCBlockGCDURLConnectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARCBlockGCDURLConnection.app/ARCBlockGCDURLConnection";
+			};
+			name = Debug;
+		};
+		0084F1FA200D85D8005DC7D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WK6R7V524D;
+				INFOPLIST_FILE = ARCBlockGCDURLConnectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ARCBlockGCDURLConnection.ARCBlockGCDURLConnectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARCBlockGCDURLConnection.app/ARCBlockGCDURLConnection";
+			};
+			name = Release;
+		};
+		0084F1FC200D85D8005DC7D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WK6R7V524D;
+				INFOPLIST_FILE = ARCBlockGCDURLConnectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ARCBlockGCDURLConnection.ARCBlockGCDURLConnectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARCBlockGCDURLConnection;
+			};
+			name = Debug;
+		};
+		0084F1FD200D85D8005DC7D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WK6R7V524D;
+				INFOPLIST_FILE = ARCBlockGCDURLConnectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ARCBlockGCDURLConnection.ARCBlockGCDURLConnectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARCBlockGCDURLConnection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0084F1C4200D85D7005DC7D5 /* Build configuration list for PBXProject "ARCBlockGCDURLConnection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0084F1F3200D85D8005DC7D5 /* Debug */,
+				0084F1F4200D85D8005DC7D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0084F1F5200D85D8005DC7D5 /* Build configuration list for PBXNativeTarget "ARCBlockGCDURLConnection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0084F1F6200D85D8005DC7D5 /* Debug */,
+				0084F1F7200D85D8005DC7D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0084F1F8200D85D8005DC7D5 /* Build configuration list for PBXNativeTarget "ARCBlockGCDURLConnectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0084F1F9200D85D8005DC7D5 /* Debug */,
+				0084F1FA200D85D8005DC7D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0084F1FB200D85D8005DC7D5 /* Build configuration list for PBXNativeTarget "ARCBlockGCDURLConnectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0084F1FC200D85D8005DC7D5 /* Debug */,
+				0084F1FD200D85D8005DC7D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0084F1C1200D85D7005DC7D5 /* Project object */;
+}
