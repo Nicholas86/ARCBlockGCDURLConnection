@@ -15,6 +15,9 @@
 		0084F1DC200D85D7005DC7D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0084F1DB200D85D7005DC7D5 /* main.m */; };
 		0084F1E6200D85D8005DC7D5 /* ARCBlockGCDURLConnectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0084F1E5200D85D8005DC7D5 /* ARCBlockGCDURLConnectionTests.m */; };
 		0084F1F1200D85D8005DC7D5 /* ARCBlockGCDURLConnectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0084F1F0200D85D8005DC7D5 /* ARCBlockGCDURLConnectionUITests.m */; };
+		10C04C9E5B7CB288FF70B3F6 /* libPods-ARCBlockGCDURLConnection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B56B1C0A8CB99040708703 /* libPods-ARCBlockGCDURLConnection.a */; };
+		1C08CFD005F199F59ED21B25 /* libPods-ARCBlockGCDURLConnectionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C8086A042371EB051409DB /* libPods-ARCBlockGCDURLConnectionTests.a */; };
+		91C4D1AE57C258646A48D44D /* libPods-ARCBlockGCDURLConnectionUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E12DD6FE341945D84627B6 /* libPods-ARCBlockGCDURLConnectionUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,15 @@
 		0084F1EC200D85D8005DC7D5 /* ARCBlockGCDURLConnectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARCBlockGCDURLConnectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0084F1F0200D85D8005DC7D5 /* ARCBlockGCDURLConnectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARCBlockGCDURLConnectionUITests.m; sourceTree = "<group>"; };
 		0084F1F2200D85D8005DC7D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C8086A042371EB051409DB /* libPods-ARCBlockGCDURLConnectionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARCBlockGCDURLConnectionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393175D2F9CF8C4C9CBF91DE /* Pods-ARCBlockGCDURLConnectionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCBlockGCDURLConnectionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARCBlockGCDURLConnectionUITests/Pods-ARCBlockGCDURLConnectionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		42CE1F59D313DFEB79948D3D /* Pods-ARCBlockGCDURLConnectionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCBlockGCDURLConnectionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARCBlockGCDURLConnectionTests/Pods-ARCBlockGCDURLConnectionTests.release.xcconfig"; sourceTree = "<group>"; };
+		4965A1AF16B5A98702D3FB1D /* Pods-ARCBlockGCDURLConnectionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCBlockGCDURLConnectionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARCBlockGCDURLConnectionUITests/Pods-ARCBlockGCDURLConnectionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		58B56B1C0A8CB99040708703 /* libPods-ARCBlockGCDURLConnection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARCBlockGCDURLConnection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B0402191AD54268795F590 /* Pods-ARCBlockGCDURLConnection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCBlockGCDURLConnection.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARCBlockGCDURLConnection/Pods-ARCBlockGCDURLConnection.release.xcconfig"; sourceTree = "<group>"; };
+		92E12DD6FE341945D84627B6 /* libPods-ARCBlockGCDURLConnectionUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARCBlockGCDURLConnectionUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58E844D51E675766F88F901 /* Pods-ARCBlockGCDURLConnectionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCBlockGCDURLConnectionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARCBlockGCDURLConnectionTests/Pods-ARCBlockGCDURLConnectionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F158954C660DA42B69210741 /* Pods-ARCBlockGCDURLConnection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCBlockGCDURLConnection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARCBlockGCDURLConnection/Pods-ARCBlockGCDURLConnection.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C04C9E5B7CB288FF70B3F6 /* libPods-ARCBlockGCDURLConnection.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C08CFD005F199F59ED21B25 /* libPods-ARCBlockGCDURLConnectionTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91C4D1AE57C258646A48D44D /* libPods-ARCBlockGCDURLConnectionUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				0084F1E4200D85D8005DC7D5 /* ARCBlockGCDURLConnectionTests */,
 				0084F1EF200D85D8005DC7D5 /* ARCBlockGCDURLConnectionUITests */,
 				0084F1CA200D85D7005DC7D5 /* Products */,
+				1F6696C4895988EA531BD344 /* Pods */,
+				6BF56E75C063736FE750B3B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +149,29 @@
 			path = ARCBlockGCDURLConnectionUITests;
 			sourceTree = "<group>";
 		};
+		1F6696C4895988EA531BD344 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F158954C660DA42B69210741 /* Pods-ARCBlockGCDURLConnection.debug.xcconfig */,
+				65B0402191AD54268795F590 /* Pods-ARCBlockGCDURLConnection.release.xcconfig */,
+				E58E844D51E675766F88F901 /* Pods-ARCBlockGCDURLConnectionTests.debug.xcconfig */,
+				42CE1F59D313DFEB79948D3D /* Pods-ARCBlockGCDURLConnectionTests.release.xcconfig */,
+				393175D2F9CF8C4C9CBF91DE /* Pods-ARCBlockGCDURLConnectionUITests.debug.xcconfig */,
+				4965A1AF16B5A98702D3FB1D /* Pods-ARCBlockGCDURLConnectionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6BF56E75C063736FE750B3B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58B56B1C0A8CB99040708703 /* libPods-ARCBlockGCDURLConnection.a */,
+				11C8086A042371EB051409DB /* libPods-ARCBlockGCDURLConnectionTests.a */,
+				92E12DD6FE341945D84627B6 /* libPods-ARCBlockGCDURLConnectionUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0084F1F5200D85D8005DC7D5 /* Build configuration list for PBXNativeTarget "ARCBlockGCDURLConnection" */;
 			buildPhases = (
+				1570E364F5A7045152458EBA /* [CP] Check Pods Manifest.lock */,
 				0084F1C5200D85D7005DC7D5 /* Sources */,
 				0084F1C6200D85D7005DC7D5 /* Frameworks */,
 				0084F1C7200D85D7005DC7D5 /* Resources */,
+				86F84E663AF92EACB18ED2A3 /* [CP] Embed Pods Frameworks */,
+				578ED4410EC4B5179C03E253 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0084F1F8200D85D8005DC7D5 /* Build configuration list for PBXNativeTarget "ARCBlockGCDURLConnectionTests" */;
 			buildPhases = (
+				1A7C4009AAD1C55592EE57DC /* [CP] Check Pods Manifest.lock */,
 				0084F1DD200D85D8005DC7D5 /* Sources */,
 				0084F1DE200D85D8005DC7D5 /* Frameworks */,
 				0084F1DF200D85D8005DC7D5 /* Resources */,
+				624637D77E337A8EB05E11AB /* [CP] Embed Pods Frameworks */,
+				81E17A2F2E833311C2408986 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0084F1FB200D85D8005DC7D5 /* Build configuration list for PBXNativeTarget "ARCBlockGCDURLConnectionUITests" */;
 			buildPhases = (
+				717A73D10848CE54CC06D728 /* [CP] Check Pods Manifest.lock */,
 				0084F1E8200D85D8005DC7D5 /* Sources */,
 				0084F1E9200D85D8005DC7D5 /* Frameworks */,
 				0084F1EA200D85D8005DC7D5 /* Resources */,
+				D6DC04A52A470D66148E0E1C /* [CP] Embed Pods Frameworks */,
+				0E85F93E84485712AF510831 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +308,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E85F93E84485712AF510831 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARCBlockGCDURLConnectionUITests/Pods-ARCBlockGCDURLConnectionUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1570E364F5A7045152458EBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARCBlockGCDURLConnection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A7C4009AAD1C55592EE57DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARCBlockGCDURLConnectionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		578ED4410EC4B5179C03E253 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARCBlockGCDURLConnection/Pods-ARCBlockGCDURLConnection-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		624637D77E337A8EB05E11AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARCBlockGCDURLConnectionTests/Pods-ARCBlockGCDURLConnectionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		717A73D10848CE54CC06D728 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARCBlockGCDURLConnectionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81E17A2F2E833311C2408986 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARCBlockGCDURLConnectionTests/Pods-ARCBlockGCDURLConnectionTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86F84E663AF92EACB18ED2A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARCBlockGCDURLConnection/Pods-ARCBlockGCDURLConnection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6DC04A52A470D66148E0E1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARCBlockGCDURLConnectionUITests/Pods-ARCBlockGCDURLConnectionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0084F1C5200D85D7005DC7D5 /* Sources */ = {
@@ -428,6 +624,7 @@
 		};
 		0084F1F6200D85D8005DC7D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F158954C660DA42B69210741 /* Pods-ARCBlockGCDURLConnection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +639,7 @@
 		};
 		0084F1F7200D85D8005DC7D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65B0402191AD54268795F590 /* Pods-ARCBlockGCDURLConnection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +654,7 @@
 		};
 		0084F1F9200D85D8005DC7D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E58E844D51E675766F88F901 /* Pods-ARCBlockGCDURLConnectionTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +670,7 @@
 		};
 		0084F1FA200D85D8005DC7D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42CE1F59D313DFEB79948D3D /* Pods-ARCBlockGCDURLConnectionTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +686,7 @@
 		};
 		0084F1FC200D85D8005DC7D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 393175D2F9CF8C4C9CBF91DE /* Pods-ARCBlockGCDURLConnectionUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WK6R7V524D;
@@ -500,6 +701,7 @@
 		};
 		0084F1FD200D85D8005DC7D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4965A1AF16B5A98702D3FB1D /* Pods-ARCBlockGCDURLConnectionUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WK6R7V524D;
